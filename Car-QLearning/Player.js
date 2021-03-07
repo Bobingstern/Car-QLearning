@@ -189,10 +189,10 @@ class Player {
           }
         }
       }
-      this.fitness-=0.5
+      
       if (colled){
         //ded
-        this.fitness -= 50
+        this.fitness -= 1
         this.dead = true
       }
 
@@ -205,7 +205,7 @@ class Player {
         if (hit){
           colled = true
 
-          this.fitness += 10
+          this.fitness += 1
           this.score++
           this.lifespan+=10
           if (this.on > YummyGates.length-1){
