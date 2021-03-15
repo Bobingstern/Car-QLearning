@@ -1,4 +1,4 @@
 # Car-QLearning
-Idk I think it works
+DEMO:
 
 https://bobingstern.github.io/Car-QLearning/Car-QLearning/index.html
